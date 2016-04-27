@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="name" content="utf-8">
+  <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./naverLogin_implicit-1.0.2.js"></script>
+</head>
+<body>
+  <div id="naver_id_login"></div>
+  <script type="text/javascript">
+    // var naver_id_login = new naver_id_login("NAVER-CLEINT-ID", "Callback URL");
+    var naver_id_login = new naver_id_login("y_oVWs3VA0gu5aiFylDH", "http://127.0.0.1:8000/success.html");
+    naver_id_login.setButton("green", 10,40);
+    naver_id_login.init_naver_id_login();
+  </script>
+</body>
+</html>
